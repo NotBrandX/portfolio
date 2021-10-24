@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Brandon</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Comfortaa:700" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div id="loading">
+        <div id="spinner"></div>
+    </div>
+    <div id="header" class="animated slideInDown" style="animation-delay:1.8s;">
+        <div id="title">Brandon Doris</div><br>
+        <div id="links">
+            <a href="#about">about</a>
+            <a href="#projects" style="margin:0px 60px;">projects</a>
+            <a href="#contact">contact</a>
+        </div>
+    </div>
+
+    <center>
+        <div id="middle">
+            <div id="tagline" class="animated zoomIn" style="animation-delay:1.8s;">
+                Hi, my name is Brandon. I'm a web developer.<br>
+            </div>
+        </div>
+    </center>
+
+    <div id="portfolio">
+        <div id="skills">
+            <h1>About Me</h1>
+            <div>
+                <p>I’m a NYC based web developer who is never afraid to take on new challenges. I love to think about
+                    issues from different angles and come up with interesting solutions. Finishing a new app is one of
+                    the most satisfying feelings in the world.
+                </p>
+                <p>
+                    My experience at the General Assembly bootcamp has prepared me to create full stack applications by
+                    teaching me how to
+                    use HTML, CSS, Javascript, Python, React, Node JS, Mongodb and Postgres.
+                </p>
+                <i class="fab fa-html5 fa-lg"></i>
+                <i class="fab fa-css3-alt fa-lg"></i>
+                <i class="fab fa-js-square fa-lg"></i>
+                <i class="fab fa-python fa-lg"></i>
+                <i class="fab fa-react fa-lg"></i>
+                <i class="fab fa-node fa-lg"></i>
+                <span class="iconify" data-icon="cib:mongodb"></span>
+                <span class="iconify" data-icon="simple-icons:postgresql"></span>
+            </div>
+        </div>
+
+        <div id="work">
+            <h1>projects</h1>
+
+            <div class="project">
+                <h2>priceless</h2>
+                <img src="https://user-images.githubusercontent.com/56131542/138613236-3a99695c-2923-4254-aecb-b12addeca19d.png"
+                    alt="priceless-screenshot">
+                <div>This app was inspired by Craiglist, Amazon, and Trash Nothing. It's a community where users can
+                    give away or claim used items for free.</div>
+                <button class="btn_one"><a href="https://pricelessapp.netlify.app/">visit project</a></button>
+                <button class="btn_two"><a href="https://github.com/NotBrandX/priceless-frontend">code</a></button>
+            </div>
+
+            <div class="project">
+                <h2>psychoDB</h2>
+                <img src="https://user-images.githubusercontent.com/56131542/138613257-d47bb2d3-8b4a-4963-b9b4-edf7bfe73a2c.png"
+                    alt="psychodb-screenshot">
+                <div>PsychoDB uses the Psychonauts API to display information about characters and abilities from the
+                    cult classic video game
+                    Psychonauts. It also has a search page so you can search for characters by name or gender.
+                </div>
+                <button class="btn_one"><a href="https://psychodb.herokuapp.com/">visit project</a></button>
+                <button class="btn_two"><a href="https://github.com/NotBrandX/PsychoDB">code</a></button>
+            </div>
+
+            <div class="project">
+                <h2>galactic jeopardy</h2>
+                <img src="https://user-images.githubusercontent.com/56131542/138613319-04320382-cf6b-454a-a3b4-66ee17664533.png"
+                    alt="galactic-jeopardy-screenshot">
+                <div>Galactic Jeopardy is a self-scoring world history trivia game. The player guesses the answers and
+                    the computer will let
+                    them know if they're right.
+                </div>
+                <button class="btn_one"><a href="https://notbrandx.github.io/Trivia-Game/">visit project</a></button>
+                <button class="btn_two"><a href="https://github.com/NotBrandX/Trivia-Game">code</a></button>
+            </div>
+
+        </div>
+
+        <div id="contact">
+            <h1>contact</h1>
+            <form name='contact' method='POST' data-netlify='true'>
+                <input type="hidden" name="form-name" value="contact">
+                <p>
+                    <label>
+                        Your Name: <input type='text' name='name' />
+                    </label>
+                </p>
+                <p>
+                    <label>
+                        Your Email: <input type='email' name='email' />
+                    </label>
+                </p>
+                <p>
+                    <label>
+                        Message: <textarea name='message' rows='6' cols='30'></textarea>
+                    </label>
+                </p>
+                <p>
+                    <button type='submit' class="btn_one">Send</button>
+                </p>
+            </form>
+            <div id="details">
+                <a href="https://github.com/NotBrandX" class="btn_social"><i class="fab fa-github-square fa-2x"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/brandondoris/" class="btn_social"><i
+                        class="fab fa-linkedin fa-2x"></i>
+                </a>
+                <a href="https://twitter.com/NotBrandX_" class="btn_social"><i class="fab fa-twitter-square fa-2x"></i>
+                </a>
+                <a href="https://drive.google.com/uc?export=download&id=1kcIMVN8j3-gSgUXYWKQEpwWdaB6_kykh"
+                    class="btn_social"><i class="fas fa-download fa-2x"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <script src="index.js" type="text/javascript"></script>
+    <script src="https://code.iconify.design/2/2.0.3/iconify.min.js"></script>
+</body>
+
+</html>
